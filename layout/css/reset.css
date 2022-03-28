@@ -1,0 +1,12 @@
+@charset "utf-8";
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+/* box-sizing : content-box; 기본값;내 몸이 기준, 패딩옷을 입는다 => 나의 아웃라인은 확장 */
+/* box-sizing: border-box; 패딩 옷이 기준, 패딩옷 내부에 내 몸이 들어간다 => 나의 아웃라인은 확장되지 않음 */
+html, body{margin: 0;padding: 0;}
+header, section, article, aside, nav, main, footer{display: block;}
+header:after, section:after, article:after, aside:after, nav:after, main:after, footer:after{content: "";display: block;clear: both;}
+/* 부트스트랩의 기본값은 display: flex;로 bootstrap 사용시 after 이용하지 말 것 */
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none;}
+.clear{clear: both;}

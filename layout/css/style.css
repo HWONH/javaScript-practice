@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.layout_01{width: 100%;height: auto;background: #aaaaaa;}
+.layout_01 ul{width: 1200px;height: auto;margin: 0 auto;padding: 100px 0;font-size: 0;}
+.layout_01 ul li{display: inline-block;vertical-align: top;width: calc(25% - 20px);height: auto;margin: 0 10px;}
+.layout_01 ul li div{width: 100%;height: 300px;background-size: cover;background-position: 50% 50%;}
+.layout_01 ul li .img_box1{background-image: url(../img/artist_1.jpg);}
+.layout_01 ul li .img_box2{background-image: url(../img/artist_2.jpg);}
+.layout_01 ul li .img_box3{background-image: url(../img/artist_3.jpg);}
+.layout_01 ul li .img_box4{background-image: url(../img/artist_4.jpg);}

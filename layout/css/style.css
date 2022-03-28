@@ -66,3 +66,19 @@
 .layout_05 > div ul li .txt_box div p{line-height: 1;color: #ffffff;}
 .layout_05 > div ul li .txt_box div p:first-child{font-size: 24px;padding-bottom: 20px;}
 .layout_05 > div ul li .txt_box div p:last-child{font-size: 18px;}
+
+#preview_05{background: #d2d2d2;padding: 100px 0;}
+#preview_05 .frame{width: 1200px;margin: 0 auto;background: #ffffaa;}
+#preview_05 .frame h2{font-size: 40px;line-height: 50px;text-align: center;}
+#preview_05 .frame .list{padding-top: 50px;}
+#preview_05 .frame .list ul{font-size: 0;}
+#preview_05 .frame .list ul li{display: inline-block;width: calc(25% - 20px);height: 300px; margin: 0 10px;background-color: #aaffff;font-size: 18px;vertical-align: top;background-size: cover;background-position: 50% 50%;overflow: hidden;}
+#preview_05 .frame .list ul li:nth-child(1){background-image: url(../img/artist_1.jpg);}
+#preview_05 .frame .list ul li:nth-child(2){background-image: url(../img/artist_2.jpg);}
+#preview_05 .frame .list ul li:nth-child(3){background-image: url(../img/artist_3.jpg);}
+#preview_05 .frame .list ul li:nth-child(4){background-image: url(../img/artist_4.jpg);}
+#preview_05 .frame .list ul li .dark{position: relative;width: 100%;height: 100%;background: rgba(0,0,0,.5);opacity: 0;transform: translate(0, 100%);transition: transform 0.5s, opacity 0.5s;} /* display: table; */
+#preview_05 .frame .list ul li:hover .dark{opacity: 1;transform: translate(0, 0);}
+#preview_05 .frame .list ul li .dark .v_middle{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #ffffff;} /* display: table-cell;vertical-align: middle; */
+#preview_05 .frame .list ul li .dark .v_middle h3{font-size: 24px;}
+#preview_05 .frame .list ul li .dark .v_middle p{padding-top: 20px;}

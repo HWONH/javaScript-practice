@@ -49,3 +49,20 @@
 .layout_04 > div ul li .txt_box p{text-align: left;line-height: 1;color: #ffffff;}
 .layout_04 > div ul li .txt_box p:first-child{font-size: 24px;padding-bottom: 20px;}
 .layout_04 > div ul li .txt_box p:last-child{font-size: 18px;}
+
+.layout_05{width: 100%;height: auto;background: #aaaaaa;}
+.layout_05 > div{width: 1200px;height: auto;margin: 0 auto;padding: 100px 0;}
+.layout_05 > div p{font-size: 40px;line-height: 50px;text-align: center;}
+.layout_05 > div ul{font-size: 0;padding-top: 50px;}
+.layout_05 > div ul li{position: relative;display: inline-block;vertical-align: top;width: calc(25% - 20px);height: auto;margin: 0 10px;}
+.layout_05 > div ul li div:first-child{width: 100%;height: 300px;background-size: cover;background-position: 50% 50%;}
+.layout_05 > div ul li .img_box1{background-image: url(../img/artist_1.jpg);}
+.layout_05 > div ul li .img_box2{background-image: url(../img/artist_2.jpg);}
+.layout_05 > div ul li .img_box3{background-image: url(../img/artist_3.jpg);}
+.layout_05 > div ul li .img_box4{background-image: url(../img/artist_4.jpg);}
+.layout_05 > div ul li .txt_box{display: table;position: absolute;bottom: 0;left: 0;width: 100%;height: 100%;padding: 10px;background: rgba(0,0,0,.5);text-align: center;opacity: 0;transition: opacity 0.5s;}
+.layout_05 > div ul li:hover .txt_box{opacity: 1;}
+.layout_05 > div ul li .txt_box div{display: table-cell;vertical-align: middle;width: 100%;height: 100%;}
+.layout_05 > div ul li .txt_box div p{line-height: 1;color: #ffffff;}
+.layout_05 > div ul li .txt_box div p:first-child{font-size: 24px;padding-bottom: 20px;}
+.layout_05 > div ul li .txt_box div p:last-child{font-size: 18px;}

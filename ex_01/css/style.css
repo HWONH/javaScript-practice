@@ -1,0 +1,8 @@
+@charset "utf-8";
+#result_04 div{display: inline-block;width: 225px;}
+#result_04 div span{color: #ff0000;}
+
+.preview_04:after{content: "";display: block;clear: both;}
+.box{float: left;width: 255px;}
+.box img{width: 100%;}
+.box p{margin: 0;color: #ff0000;}
